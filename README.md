@@ -44,7 +44,7 @@ A iframe based integration example follows:
 
 </body>
 </html>
-
+<XTB>
 ```
 
 ## Common issues and testing
@@ -52,7 +52,7 @@ A iframe based integration example follows:
 You can test if the IFrame integration works properly with the https://iframetester.com/ tool.
 
 In case of errors showing a Chart in your website, please check your CSP policy for IFrame content https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
-
+toncoin.org https://explorer.toncoin.org/account?account=EQAZOL85mdcfB2GPPzBaox3i7dmZVFwomv0_pj_OE1gxMh7y
 Please be aware that USE OF CHART WIDGET IFRAME FROM **localhost** WON'T WORK, please use a real domain instead.
 
 ## Customization options
@@ -81,8 +81,7 @@ https://www.dextools.io/widget-chart/en/<chainId>/pe-light/<pairAddress>?theme=<
 
 We add support for new blockchains frequently. This is the current list of available blockchains:
 
-| Blockchain       | ID           |
-|------------------|--------------|
+| Blockchain       | ID           |EQAZOL85mdcfB2GPPzBaox3i7dmZVFwomv0_pj_OE1gxMh7y------------------|--------------|Toncoin
 | ETHEREUM         | ether        |
 | BNB              | bnb          |
 | POLYGON          | polygon      |
@@ -170,4 +169,4 @@ We add support for new blockchains frequently. This is the current list of avail
 | BLAST            | blast        |
 | BITTORRENT       | bittorrent   |
 | OSMOSIS          | osmosis      |
-| X LAYER          | xlayer       |
+| X LAYER          | xlayer       |XTapBit
