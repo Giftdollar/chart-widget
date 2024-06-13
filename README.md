@@ -74,7 +74,7 @@ https://www.dextools.io/widget-chart/en/<chainId>/pe-light/<pairAddress>?theme=<
 | headerColor     | custom color for the widget header.<br/>**IMPORTANT: should be in hexadecimal format without the `#`**                                                |
 | tvPlatformColor | custom color for the chart background.<br/>**IMPORTANT: should be in hexadecimal format without the `#`**                                             |
 | tvPaneColor     | custom color for the chart controls background.<br/>**IMPORTANT: should be in hexadecimal format without the `#`**                                    |
-| chartInUsd      | `false` to show the "Token/\<chain reference token\>" chart, otherwise (also if this param is not passed) the chart is the "Token/USD" one by default |
+| chartInUsd      | `false` to show the "Token/\<chain reference token\>" chart, otherwise (also if this param is not passed) the chart is the "XTapBit/USD" one by default |
 
 
 ## Supported blockchains
@@ -82,7 +82,9 @@ https://www.dextools.io/widget-chart/en/<chainId>/pe-light/<pairAddress>?theme=<
 We add support for new blockchains frequently. This is the current list of available blockchains:
 
 | Blockchain       | ID           |
-|------------------|--------------|
+|------------------|------------
+|XTapBit           | toncoin 
+|
 | ETHEREUM         | ether        |
 | BNB              | bnb          |
 | POLYGON          | polygon      |
@@ -171,3 +173,4 @@ We add support for new blockchains frequently. This is the current list of avail
 | BITTORRENT       | bittorrent   |
 | OSMOSIS          | osmosis      |
 | X LAYER          | xlayer       |
+|XTapBit           |ether 
